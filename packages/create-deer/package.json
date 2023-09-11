@@ -1,0 +1,42 @@
+{
+  "name": "@zdeer/create-deer",
+  "version": "0.2.1",
+  "description": "A generic scaffolding system",
+  "bin": {
+    "@zdeer/create-deer": "./bin/index.js",
+    "create-deer": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "author": {
+    "name": "Lu",
+    "email": "mjf_work@outlook.com"
+  },
+  "keywords": [
+    "zdeer-cli",
+    "@zdeer",
+    "create-deer",
+    "cli",
+    "脚手架"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@zdeer/utils": "0.1.2",
+    "axios": "^1.3.5",
+    "commander": "10.0.0",
+    "download-git-repo": "^3.0.2",
+    "ejs": "3.1.9",
+    "gradient-string": "^2.0.2",
+    "inquirer": "8.2.4",
+    "ora": "5.4.1"
+  }
+}
